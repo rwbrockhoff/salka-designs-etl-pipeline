@@ -48,7 +48,7 @@ required:
 
 ## 2. Architecture Overview
 
-[Architecture Diagram](/docs/salka-architecture-diagram.png)
+![Architecture Diagram](/docs/salka-architecture-diagram.png)
 
 Event-driven pipeline with four main steps:
 
@@ -209,7 +209,7 @@ customer orders and required materials.
 
 ### **Database Schema**
 
-[Database Schema](/docs/salka-db-schema.png)
+![Database Schema](/docs/salka-db-schema.png)
 
 ### Handling Delta and Limiting Row Processing
 
@@ -319,7 +319,7 @@ query to RDS.
 
 ```python
 def get_max_date_from_database():
-    """Get the latest order creation date to avoid duplicate order items"""
+    # Get the latest order creation date to avoid duplicate order items
     max_date_query = f"""
         SELECT COALESCE(MAX(o.created_on), '1900-01-01'::timestamp) as max_date
         FROM {ORDER_ITEMS_TABLE} oi
@@ -362,7 +362,7 @@ CREATE INDEX idx_order_items_product_sku ON order_items(product_sku);
 
 ## 6. Network Security & VPC Configuration
 
-[VPC Security Diagram](/docs/salka-vpc-diagram.png)
+![VPC Security Diagram](/docs/salka-vpc-diagram.png)
 
 Working with customer data, I wanted to ensure solid security practices in my AWS architecture. This
 was definitely a fun challenge for me. I wanted to be intentional with my security practices and
@@ -460,7 +460,7 @@ When the Excel report is saved to S3, an S3 event automatically triggers the ema
 - Generates a secure presigned URL with 72-hour expiration
 - Sends a professional HTML-formatted email to the production team
 
-[Email Report Preview](/docs/salka-reports-email-preview.png)
+![Email Report Preview](/docs/salka-reports-email-preview.png)
 
 ## 8. Results & Business Impact
 
