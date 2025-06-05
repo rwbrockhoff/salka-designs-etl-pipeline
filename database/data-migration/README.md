@@ -8,8 +8,7 @@ and the `bill_of_materials` wouldn't be needed for any further reports or analys
 ### Data Migration Tasks
 
 - Update `bill_of_materials` to use new product skus.
-- Update exisiting product name in `products` to append '- V1' so we can easily understand product
-  versioning
+- Update exisiting product name in `products` to append '- V1' for product versioning.
 - Insert new `products` into the database for referential integrity for new orders after e-commerce
   migration.
-- Create migration log to track SKU updates for any future product/business changes
+- Create migration log to track SKU updates for any future product/business changes.

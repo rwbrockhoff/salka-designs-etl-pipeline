@@ -161,8 +161,7 @@ def send_report_email(file_url, file_key, sender_email, recipient_emails):
                     border-top: 1px solid #eee;
                     font-size: 12px;
                     color: #666;
-                    "
-                >
+                    ">
                     <p>This is an automated message. Please do not reply to this email.</p>
                 </div>
                 </div>
