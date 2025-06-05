@@ -1,0 +1,73 @@
+{
+  "result": [
+    {
+      "id": "mock123456789abcdef01234567",
+      "orderNumber": "123",
+      "createdOn": "2025-04-01T19:35:52.216Z",
+      "modifiedOn": "2025-04-01T19:35:54.282Z",
+      "channel": "web",
+      "testmode": false,
+      "customerEmail": "sample@sample.com",
+      "billingAddress": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "address1": "123 Main St.",
+        "address2": null,
+        "city": "Denver",
+        "state": "CO",
+        "countryCode": "US",
+        "postalCode": "80211",
+        "phone": "11234567890"
+      },
+      "shippingAddress": {
+        "firstName": "Johnathan",
+        "lastName": "Doe",
+        "address1": "345 Rocky Boulevard",
+        "address2": null,
+        "city": "Boulder",
+        "state": "CO",
+        "countryCode": "US",
+        "postalCode": "80301",
+        "phone": "11234567890"
+      },
+      "fulfillmentStatus": "PENDING",
+      "lineItems": [
+        {
+          "id": "mockitem123456789abcdef123",
+          "variantId": "mock-variant-1234-5678-9abc-def012345678",
+          "sku": "SQ1234567",
+          "weight": 0.25,
+          "width": 6.5,
+          "length": 10.0,
+          "height": 1.5,
+          "productId": "mockproduct123456789abcdef",
+          "productName": "S\u00e4lka Art Sling (made to order)",
+          "quantity": 1,
+          "unitPricePaid": { "currency": "USD", "value": "90.00" },
+          "variantOptions": [{ "optionName": "Color", "value": "Misty Fern (Green)" }],
+          "customizations": null,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/abc/def/products-123.jpg?format=300w",
+          "lineItemType": "PHYSICAL_PRODUCT"
+        }
+      ],
+      "internalNotes": [],
+      "shippingLines": [
+        { "method": "USPS Ground Advantage", "amount": { "currency": "USD", "value": "7.50" } }
+      ],
+      "discountLines": [],
+      "formSubmission": null,
+      "fulfillments": [],
+      "subtotal": { "currency": "USD", "value": "90.00" },
+      "shippingTotal": { "currency": "USD", "value": "7.50" },
+      "discountTotal": { "currency": "USD", "value": "0.00" },
+      "taxTotal": { "currency": "USD", "value": "8.24" },
+      "refundedTotal": { "currency": "USD", "value": "0.00" },
+      "grandTotal": { "currency": "USD", "value": "105.74" },
+      "channelName": "Squarespace",
+      "externalOrderReference": null,
+      "fulfilledOn": null,
+      "priceTaxInterpretation": "EXCLUSIVE"
+    }
+  ],
+  "pagination": { "nextPageUrl": null, "nextPageCursor": null, "hasNextPage": false }
+}
