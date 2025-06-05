@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  // Prettier as default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Black for Python code
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
