@@ -14,3 +14,8 @@ being processed by our AWS Glue ETL job.
 
 Sample report file (deliverable) that meets the business requirements for this project. Report has
 been modified to obscure real-time business order information.
+
+### [AWS Infrastructure](/examples/salka-orders-etl/aws/)
+
+Additional technical documentation showcasing the AWS services and architecture used in this ETL
+project.
