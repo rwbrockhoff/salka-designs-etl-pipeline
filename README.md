@@ -6,6 +6,8 @@ delivers weekly production reports via email.
 **🔧 Technologies Used:** AWS Lambda, AWS Glue, Amazon RDS (PostgreSQL), Amazon S3, Amazon
 EventBridge, Amazon SES, AWS Secrets Manager, VPC, Python, SQL, Pandas, Squarespace API
 
+[View Website Blog Post Here](https://ryanbrockhoff.com/blog/data-analytics/salka-designs-automated-etl/)
+
 ## 🏗️ Architecture
 
 ![Architecture Diagram](/docs/salka-architecture-diagram.png)
@@ -20,5 +22,8 @@ EventBridge, Amazon SES, AWS Secrets Manager, VPC, Python, SQL, Pandas, Squaresp
 ## 📖 Documentation
 
 - [Full Project Blog Post](docs/blog-post.md)
-- [Database Schema](docs/database-schema.png)
-- [Security Architecture](docs/security-diagram.png)
+- [Architecture Diagrams](/docs/)
+- [Database Queries (SQL)](/database/)
+- [Lambda Functions](/lambda-functions/salka-orders-etl/)
+- [Glue ETL Job](/glue-jobs/salka-orders-etl/)
+- [Example Data](/examples/salka-orders-etl/)
