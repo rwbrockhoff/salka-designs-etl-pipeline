@@ -1,6 +1,6 @@
 # Database
 
-This folder contains the PostgreSQL database schema, reports, and procedures for the Salka Designs
+This folder contains the PostgreSQL database schema, reports, and procedures for the Sälka Designs
 ETL Pipeline. The database stores Squarespace order data and product information to support weekly
 production reporting.
 
@@ -31,6 +31,8 @@ reports:
 - Joins orders → order_items → products → bill_of_materials
 - Calculates total fabric needed by material type and color
 
+---
+
 ### Stored Procedures
 
 **upsert_orders_from_staging()**
@@ -38,6 +40,8 @@ reports:
 - Handles ETL data loading from staging table
 - Inserts new orders and updates existing ones on conflict
 - Returns row count for AWS Glue integration
+
+---
 
 ### Data Migration
 
